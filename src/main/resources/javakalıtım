@@ -1,0 +1,14 @@
+INHERITANCE
+Kalıtım bir sınıftan diğer sınıfları türetmek
+anlamına gelir zaten adı üstünde kalıtım, gerçek dünya
+da da kalıtım bu şekilde değil mi?:) programlama dillerinde de
+gerçek dünya da ki gibi kalıtımın yapılabilmesi sağlanmıştır java bunu
+extends keyword ü kullanarak yapar. Çoklu kalıtım inheritance ile sağlanamaz
+işte yukarıda interface lerde multiple inheritance demiştik, multiple
+inheritance ı interface ile sağlarız.
+peki neden çoklu kalıtım extends kullanarak yani bir sınıf birden çok
+sınıftan türetilerek sağlanamıyor çünkü sınıfın türediği sınıflarda aynı
+metottan varsa türetilmiş sınıf hangi metodu runtime da kullanacağına
+nasıl karar verecek?
+inheritance java ya runtime polimorfizm sağlar yani method overriding.
+burada method overriding e değinelim.
