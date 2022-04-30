@@ -1,0 +1,18 @@
+Java ile Nesne yönelimli programlama
+
+Öncelikle nesne nedir gerçek dünya da neye karşılık gelir.?
+Programlama dillerinde ki nesne gerçek dünyada ki durum ve 
+davranış belirtisi içeren varlıklara karşılık gelir. 
+O zaman bir nesne programlama dillerinde de iki şeyi içerecektir peki neyi:) durum ve davranış.
+
+Dünyadan bir araba varlığını ele alalım, araba nın durumu nedir
+ne dersiniz sıfır araba dersiniz, ikinci el araba dersiniz,
+km si 100 bin dersiniz peki davranış 100 km ye 10 saniye de çıkar, 
+camları otomatik açılır dersiniz. İşte bütün bunları programlama dillerinde
+de belirtebiliriz bunun için nesneleri kullanırız. Peki nesneleri nasıl kullanabiliriz
+programlama dili olarak java ile devam edeceğimize göre java da nesneyi
+nasıl kullanırız dersek sorumuzun cevabı sınıflar olur ve  nesneler için şablon niteliğinde 
+programlama dillerine içindekiler görevi yapar. İçindekiler neyi gösterir hangi sayfada hangi resim, 
+hangi sayfa da hangi başık var bunu gösterir değil mi? işte sınıflar da nesnelerimizin durum
+ve davranışlarını gösterdiğimiz yerdir. Bu kadar felsefe yeterse o zaman java da bir sınıf oluşturup bir görelim.
+
