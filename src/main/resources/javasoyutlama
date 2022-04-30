@@ -1,0 +1,12 @@
+ABSTRACTION
+Farkındalığımız sınıf nesne ve interface konularında iyice
+arttıktan sonra abstraction yani soyutlamayı anlatmak daha kolay
+olacaktır. Soyutlama yaparken soyutlama yaptığımız davranışın nasıl
+ne şekilde gerçekleşeceğini soyutlama yaptığımız kısımda göstermeyiz
+bu sayede davranışı ve durumu süreci saklamış oluruz bu da detayları
+vermediğimiz anlamına gelir ve kod karmaşasını önler. Peki gerçek dünya da şu cümle bize yeter:)
+Think of an abstract class as an almost complete car by your
+dad who left over the choice of engine to be provided by you.
+Bir abstract sınıfı size kabortası verilmiş bir araba olarak
+düşünebilirsiniz, motorunu siz seçer siz koyarsınız.
+Yani davranışı ve durumu gerçekleştirecek kodları siz kendi oluşturacağınız sınıfta yazarsınız.
