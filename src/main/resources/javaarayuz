@@ -1,0 +1,36 @@
+INTERFACE
+
+Peki ya interface lerin gerçek dünya da ki yeri dersem? düşünün bakalım?
+araba nesnemizden devam edelim, arabamızın anahtarı var değil mi bildiğimiz
+ev anahtarı gibi kapısında kilit yerine takıp çevirip kapısını açtığımız anahtarı.
+ Peki daha yeni arabalar nasıl kumandaları var kumanda ne yapıyor açma düğmesine
+ basarız, açılır, kapatma düğmesine basarız kilitlenir. Ee hocam ne bu ne
+ alaka işte az önce anahtarı kilit yerine takıp çevirdiğimiz zaman sınıf
+ olarak kapı, nesne olarak anahtarı kullandık ve davranış olarak da açma
+ davranışını gerçekleştirdik, kumanda ile yapınca ne oldu kumanda ile
+ yaptığımızda kapıyı biliyor muyuz kumandanın üzerinde sadece kilit işareti
+ var demi, anahtarı taktığımız yeri biliyor muyuz sadece aç ve kapa var değil
+ mi kumanda da işte interface arkadaşlar aslında arka planda işleri yapan ve
+ durumları davranışları olan nesneleri içeren sınıflara emirler yağdıran
+ şablondur:) Gerçek dünya da anladı isek java dünyasında interface ler nasıl
+ oluşturulur bakalım ve tabi ki de interface lerin şu özelliklerini de bilmemiz gerekir:
+aslında gerçek dünyada ki az önce ki örnekte teknik olarak da bişeyler söyledik
+de çaktırmadık:) ne yaptık anahtarı kapı kilitine takıp çevirme davranışını ve
+ kapıyı soyutladık yani ortamda bunlar yok ama interface imiz sanki bunlar
+ varmışcasına aç kapa yaptırdı o zaman  interface ler
+1- soyutlama mekanizmasını gerçekleyen şablonlardır.
+2- loose coupling i gerçekleştirmek için kullanılır
+burada tabi ki de loose coupling i teknik olarak açıklayalım
+loose coupling bir sınıfın diğer sınıflardan tamamen bağımsız olması
+anlamına gelir yani bir sınıf diğer bir sınıfla ilgili bilgileri sadece onun
+interface i aracılığı ile bilir. İşte loose coupling interface ile bu şekilde
+gerçekleşmiş olur. Mesela araba ve garaj iki ayrı nesnedir ve siz arabayı garaja
+koyarsınız değil mi peki bunu programlama dilinde nasıl yaparız araba ve garaj
+nesnelerimizi içeren sınıflarımız olur araba sınıfından oluşturulan araba
+nesnesi garaj sınıfında ki garajaKoy metodunu kullanır burada doğrudan
+gördüğünüz gibi garaj sınıfının metodundan haberdarız işte burada ki
+garajaKoy metodunu aslında bir interface e koyar ve bu interface i garaj sınıfı
+ve araba sınıfında implemente ederek araba nesnesi ile kullanırsak o zaman loose
+coupling yapmış oluruz.
+3- multiple inheritance ı gerçekleştirmek için kullanılır
+Inheritance konusuna da aşağıda değindikten sonra çoklu kalıtım anlatılacaktır.
