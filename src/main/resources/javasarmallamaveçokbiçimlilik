@@ -1,0 +1,22 @@
+ENCAPSULATION
+Encapsulation yani sarmalama aslında sınıfımızın durumunu ve davranışlarını kısıtlı olarak dış dünya ya açmadır yani arabayı ele alırsak bazı arabalar da 4 cam otomatik olduğu halde fabrika çıkışında bunu sadece 2 cam otomatik olarak ayarlarlar ve siz bunu kırdırırsınız işte o kırdırdığınız yer fabrikanın sarmaladığı sınıftı:)
+encapsulation için sınıflarımız da içerilen durumlar java da buna attribute deriz attribute lar public, private, default, protected keywordlerine sahip olarak sarmallanır yani dış dünyadan ya gizlenirler, ya kısıtlanırlar yada tamamen açık hale gelirler bunlara access modifiers deriz.
+default: only within the package
+protected:  within the package and outside the package through child class.
+public: public modifier is everywhere
+private:  only within the class.
+
+
+POLYMORPHISM
+polimorfizm java da iki şekilde gerçekleştirlir.
+
+method overloading:
+Java 2 şekilde method overloading yapılır.
+Metodun aldığı argümanların sayısı değiştirilir.
+Metodun aldığı argümanların tipi değiştirilir.
+
+method overriding:
+Runtime polimorfizm için kullanılır. Aşağıdaki şekilde yapılır.
+Türetilen sınıftaki metod ismi ile ana  sınıftaki metod ismi aynı olmalıdır.
+Ana sınıftaki metodun parametreleri ile aynı olmalıdır.
+IS-A ilişkisi olmalıdır yani araba bir taşıttır gibi:)
